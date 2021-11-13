@@ -1,0 +1,39 @@
+body{
+    background-position: top;
+    background-repeat: no-repeat;
+    height:max-content;
+    overflow-y: auto;
+}
+#bottomimage{
+    width: 100%;
+}
+
+@media (max-width:447px) {
+    body{
+        background-position: top;
+        background-size:contain;
+    }
+    #bottomimage{
+        display: none;
+    }
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(4, 167, 231);
+  }
+  
+
+label{
+    text-transform: capitalize;
+    margin-right: 1vh;
+}
